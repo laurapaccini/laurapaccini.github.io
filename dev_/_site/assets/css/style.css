@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #207e3a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #19642E;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #19642E;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -73,7 +73,7 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 240px;  #changed from 300px
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -93,7 +93,7 @@ h6 {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 400;  #changed
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
@@ -106,7 +106,7 @@ h6 {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 17px;
   display: inline-block;
   background: #212431;
   color: #fff;
@@ -115,13 +115,13 @@ h6 {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   transition: 0.3s;
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #19642E;
   color: #fff;
   text-decoration: none;
 }
@@ -141,7 +141,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu
+# Navigation Menu ##very light green #19642E
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
@@ -189,7 +189,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #19642E;
 }
 
 /* Mobile Navigation */
@@ -202,7 +202,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #19642E;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -223,12 +223,12 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section #0C3217 dark green underlying
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/background1.png") top center;
   background-size: cover;
 }
 
@@ -251,8 +251,8 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 500;
   line-height: 56px;
   color: #fff;
 }
@@ -260,7 +260,7 @@ h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 38px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -268,7 +268,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #0C3217;
 }
 
 @media (min-width: 1024px) {
@@ -291,7 +291,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Sections General ##0C3217 dark-green; #1C7134 lighter green
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -300,10 +300,14 @@ section {
 
 .section-bg {
   background: #f5f8fd;
+  margin-top: 20px;
+  margin-right: 50px;
+
 }
 
 .section-title {
   padding-bottom: 30px;
+  text-align: justify; #new
 }
 
 .section-title h2 {
@@ -312,7 +316,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #0C3217;
 }
 
 .section-title h2::after {
@@ -321,13 +325,17 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #19642E;
   bottom: 0;
-  left: 0;
+  left: 10;
+
+
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 60px; #new
+  
 }
 
 /*--------------------------------------------------------------
@@ -336,7 +344,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #092511;
 }
 
 .about .content ul {
@@ -357,12 +365,17 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #207e3a;
   line-height: 0;
 }
 
+
 .about .content p:last-child {
   margin-bottom: 0;
+
+
+  
+
 }
 
 /*--------------------------------------------------------------
@@ -546,7 +559,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #207e3a;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -589,17 +602,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #8FBE9C;
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #368A4D;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #207e3a;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -636,11 +649,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #207e3a;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #207e3a;
 }
 
 .portfolio-details .portfolio-info {
@@ -694,10 +707,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #207e3a;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #207e3a;
 }
 
 .services .icon i {
@@ -711,7 +724,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #207e3a;
 }
 
 .services .title {
@@ -726,7 +739,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #207e3a;
 }
 
 .services .description {
@@ -1070,16 +1083,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Footer
+# Footer, new font color #16171F
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
+  padding: 9px;
+  color: #16171F; 
+  font-size: 12px;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 200px;
   z-index: 9999;
   background: #040b14;
 }
@@ -1091,8 +1104,12 @@ section {
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
+  font-size: 11px;
+  color: #16171F;
+}
+/*--Added to change hyperlink color ---*/
+#footer .credits a { 
+  color: #16171F;
 }
 
 @media (max-width: 1199px) {

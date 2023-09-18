@@ -1012,6 +1012,9 @@
   .bxl-linkedin:before {
     content: "\e94d";
   }
+  .bxl-researchgate:before {
+    content: "\f4f8";
+  }
   .bxl-linkedin-square:before {
     content: "\e94e";
   }
